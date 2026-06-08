@@ -1,0 +1,532 @@
+[
+  {
+    "id": "123-faufile-toi",
+    "title": "1, 2, 3 Faufile Toi",
+    "image": "images/123-faufile-toi-box.jpg",
+    "age": 6,
+    "players": "2-4",
+    "duration": 20,
+    "price": 25.42,
+    "description": "<b>1, 2, 3 Faufile Toi</b> est un jeu coopératif pour enfants où les joueurs déplacent discrètement des personnages pour échapper à la vigilance d’un adversaire ou d’un gardien. Mémoire, coordination et discrétion sont essentielles pour progresser sans se faire repérer et atteindre l’objectif collectif pour gagner la partie.",
+    "images": [
+      "images/123-faufile-toi-box.jpg",
+      "images/123-faufile-toi-board.jpg"
+    ],
+    "youtube": "https://www.youtube.com/embed/EzlwBu-A6p8",
+    "discovery": [
+      "Wishlist"
+    ],
+    "favorite": [],
+    "buy": [],
+    "spiel": [],
+    "cannes": [],
+    "types": [],
+    "child": [
+      "enfants"
+    ],
+    "details": {
+      "rules": "1, 2, 3 Faufile-toi est un jeu d’observation et de cache-cache inspiré du principe de « 1, 2, 3 soleil ». Les joueurs incarnent alternativement des ratons laveurs qui avancent et se cachent, et un jardinier qui tente de les repérer. Quand la fenêtre se ferme, les ratons laveurs progressent rapidement avant de se dissimuler.",
+      "material": "Le jeu propose un univers ludique et coloré mettant en scène des animaux malicieux tentant de chaparder dans un jardin. Il comprend un plateau, une maison en volume, des obstacles à contourner et des figurines. Ce matériel immersif renforce l’aspect amusant et visuel, particulièrement adapté à un jeune public.",
+      "victory": "La partie se termine lorsque les joueurs ont accumulé un certain nombre de jetons, obtenus soit en découvrant des ratons laveurs pour le jardinier, soit en restant cachés pour les autres. Le gagnant est celui qui a obtenu le plus de jetons à la fin, récompensant observation et discrétion.",
+      "rewards": [
+        "Aucune"
+      ]
+    },
+    "pricesdate": "29 may 2026",
+    "prices": [
+      {
+        "vendor": "Le Passe Temps",
+        "url": "https://www.le-passe-temps.com/memoire-observation-rapidite/26238-123-faufile-toi.html",
+        "price": "30,00 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Ludum",
+        "url": "https://www.ludum.fr/avec-des-enfants-5-7-ans/1-2-3-faufile-toi-7114",
+        "price": "26.90 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Philibert",
+        "url": "https://www.philibertnet.com/fr/ravensburger/135514-123-faufile-toi-4005556227938.html?search_query=1+2+3+faufile&results=74",
+        "price": "27.95 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Playin",
+        "url": "https://www.play-in.com/fr/produit/531847/1-2-3-faufile-toi",
+        "price": "27,50 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Amazon",
+        "url": "https://www.amazon.fr/Ravensburger-Faufile-toi-soci%C3%A9t%C3%A9-Famille-fran%C3%A7aise/dp/B0DXDDNRF8",
+        "price": "25,42 €",
+        "type": "default",
+        "best": true
+      },
+      {
+        "vendor": "Cdiscount",
+        "url": "https://www.cdiscount.com/juniors/jeux-de-societe-cartes/jeu-classique-ravensburger-1-2-3-faufile-toi/f-1207902-rav1724516730141.html?idOffre=4109851507",
+        "price": "30.66 €",
+        "type": "default"
+      },
+      {
+        "vendor": "Fnac",
+        "url": "https://www.fnac.com/Jeu-classique-Ravensburger-1-2-3-Faufile-toi/a20607875/w-4",
+        "price": "29.99 €",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "id": "7-wonders-architects",
+    "title": "7 Wonders Architects",
+    "image": "images/7-wonders-architects-box.jpg",
+    "age": 8,
+    "players": "2-7",
+    "duration": 25,
+    "price": 34.99,
+    "description": "<b>7 Wonders Architects</b> est un jeu de cartes accessible où les joueurs construisent une merveille en piochant des cartes parmi des piles visibles. Ils développent leur cité, collectent ressources et symboles. Simple et rapide, il mise sur l’opportunisme et la course pour compléter sa merveille avant les autres.",
+    "images": [
+      "images/7-wonders-architects-box.jpg",
+      "images/7-wonders-architects-board.jpg"
+    ],
+    "youtube": "https://www.youtube.com/embed/mAarfGSFdNw",
+    "discovery": [
+      "Wishlist"
+    ],
+    "favorite": [],
+    "buy": [],
+    "spiel": [
+      "Spiel des Jahres"
+    ],
+    "cannes": [
+      "As d'Or"
+    ],
+    "types": [
+      "strategie",
+      "construction"
+    ],
+    "child": [],
+    "details": {
+      "rules": "7 Wonders Architects est une version simplifiée et rapide de 7 Wonders. À chaque tour, le joueur choisit une carte parmi trois disponibles pour obtenir des ressources, progresser en science, développer son armée ou marquer des points. L’objectif est de construire progressivement sa merveille tout en optimisant ses choix.",
+      "material": "Le jeu propose des merveilles en plusieurs éléments à assembler, de nombreuses cartes, des jetons Progrès et des jetons militaires.  L’univers reste celui de l’Antiquité, où chaque joueur incarne un bâtisseur cherchant à ériger une grande merveille et à faire rayonner sa civilisation à travers le monde.",
+      "victory": "La partie se termine immédiatement lorsqu’un joueur achève la construction complète de sa merveille. On procède alors au décompte des points de victoire issus des cartes, des étapes construites, des progrès et des succès militaires. Le joueur ayant le total le plus élevé est déclaré vainqueur.",
+      "rewards": [
+        "Recommandé au Spiel des Jahres 2022",
+        "Vainqueur de l'As d'Or 2022"
+      ]
+    },
+    "pricesdate": "2 june 2026",
+    "prices": [
+      {
+        "vendor": "Le Passe Temps",
+        "url": "https://www.le-passe-temps.com/developpement-construction/20898-7-wonders-architects.html",
+        "price": "40,00 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Le Terrier des Jeux",
+        "url": "https://leterrierdesjeux.com/products/7-wonders-architects?_pos=1&_sid=b58723fbc&_ss=r",
+        "price": "40,00 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Ludum",
+        "url": "https://www.ludum.fr/jeux-de-strategie-en-famille/7-wonders-architects-2005",
+        "price": "36.90 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Philibert",
+        "url": "https://www.philibertnet.com/fr/repos-productions/101352-7-wonders-architects-5425016925553.html",
+        "price": "36.95 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Playin",
+        "url": "https://www.play-in.com/fr/produit/366497/7-wonders-architects",
+        "price": "36,50 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Amazon",
+        "url": "https://www.amazon.fr/Asmodee-Repos-Production-Wonders-Architects/dp/B09JGT38JM",
+        "price": "34,99 €",
+        "type": "default",
+        "best": true
+      },
+      {
+        "vendor": "Cdiscount",
+        "url": "https://www.cdiscount.com/juniors/jeux-de-societe-cartes/asmodee-7-wonders-architects-age-8-nombr/f-12079-asm5425016925553.html?idOffre=2034215436#mpos=1|cd",
+        "price": "34.99 €",
+        "type": "default",
+        "best": true
+      },
+      {
+        "vendor": "Fnac",
+        "url": "https://www.fnac.com/Jeu-d-ambiance-Asmodee-7-Wonders-Edition-Architects/a16034066/w-4",
+        "price": "39.99 €",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "id": "7-wonders",
+    "title": "7 Wonders",
+    "image": "images/7-wonders-box.jpg",
+    "age": 10,
+    "players": "3-7",
+    "duration": 45,
+    "price": 32.99,
+    "description": "<b>7 Wonders</b> est un jeu de cartes de civilisation où les joueurs développent leur cité antique en construisant bâtiments et merveilles. Chaque tour se joue en draft, favorisant choix simultanés et interactions. Gestion des ressources, stratégie militaire et scientifique permettent de maximiser les points de victoire.",
+    "images": [
+      "images/7-wonders-box.jpg",
+      "images/7-wonders-board.jpg"
+    ],
+    "youtube": "https://www.youtube.com/embed/Gnl2iiu9PZ0",
+    "discovery": [
+      "Wishlist"
+    ],
+    "favorite": [],
+    "buy": [],
+    "spiel": [
+      "Spiel des Jahres"
+    ],
+    "cannes": [
+      "As d'Or"
+    ],
+    "types": [
+      "strategie",
+      "construction"
+    ],
+    "child": [],
+    "details": {
+      "rules": "7 Wonders est un jeu de cartes stratégique basé sur le draft, où les joueurs développent une civilisation antique sur trois âges. À chaque tour, chacun choisit une carte à jouer simultanément puis passe le reste à son voisin. Les cartes permettent de construire bâtiments, armée, science ou merveilles pour marquer des points.",
+      "material": "Le jeu comprend des plateaux « merveille », plusieurs paquets de cartes répartis en trois âges, des pièces, des jetons de conflit et un carnet de score.  L’univers plonge les joueurs dans l’Antiquité, les invitant à développer une cité prestigieuse et à ériger une merveille emblématique du monde ancien.",
+      "victory": "La partie se termine après le troisième âge. Les joueurs comptabilisent alors leurs points de victoire issus des bâtiments, de la science, du commerce, des conflits militaires et des merveilles. Le joueur ayant le score total le plus élevé remporte la partie, avec éventuellement un départage par les pièces restantes.",
+      "rewards": [
+        "Vainqueur du Spiel des Jahres 2011",
+        "Nominé au As d'Or 2011"
+      ]
+    },
+    "pricesdate": "3 june 2026",
+    "prices": [
+      {
+        "vendor": "Le Passe Temps",
+        "url": "https://www.le-passe-temps.com/developpement-construction/136-7-wonders.html",
+        "price": "48,00 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Le Terrier des Jeux",
+        "url": "https://leterrierdesjeux.com/products/7-wonders?_pos=1&_sid=04c88fb95&_ss=r",
+        "price": "47,50 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Ludum",
+        "url": "https://www.ludum.fr/jeux-de-strategie-inities/7-wonders-620",
+        "price": "42.90 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Philibert",
+        "url": "https://www.philibertnet.com/fr/repos-productions/89182-7-wonders-nouvelle-edition-5425016923764.html",
+        "price": "42.95 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Playin",
+        "url": "https://www.play-in.com/fr/produit/296514/7-wonders",
+        "price": "42,90 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Amazon",
+        "url": "https://www.amazon.fr/Repos-Production-Wonders-Players-Minutes/dp/B08F65MX4L/",
+        "price": "50,11 €",
+        "type": "default"
+      },
+      {
+        "vendor": "Cdiscount",
+        "url": "https://www.cdiscount.com/juniors/jeux-de-societe-cartes/repos-production-7-wonders-nouvelle-version/f-12079-asmrep7w01fr.html#mpos=3|mp",
+        "price": "28.99 €",
+        "type": "default",
+        "best": true
+      },
+      {
+        "vendor": "Fnac",
+        "url": "https://www.fnac.com/Jeu-de-strategie-Asmodee-7-wonders-Nouvelle-version/a14771653/w-4",
+        "price": "47.99 €",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "id": "azul-mini",
+    "title": "Azul Mini",
+    "image": "images/azul-mini-box.jpg",
+    "imageboard": "images/azul-mini-board.jpg",
+    "age": 8,
+    "players": "2-4",
+    "duration": 30,
+    "price": 22.5,
+    "description": "<b>Azul Mini</b> est un jeu de placement où les joueurs sélectionnent des tuiles colorées pour décorer un mur selon des motifs précis. Ils doivent optimiser leur placement tout en évitant les pénalités. Tactique, anticipation et gestion des choix communs sont essentielles pour obtenir le meilleur score.",
+    "images": [
+      "images/azul-mini-box.jpg",
+      "images/azul-mini-board.jpg"
+    ],
+    "youtube": "https://www.youtube.com/embed/Gnl2iiu9PZ0",
+    "discovery": [],
+    "favorite": [],
+    "buy": [
+      "Ludothèque"
+    ],
+    "spiel": [
+      "Spiel des Jahres"
+    ],
+    "cannes": [
+      "As d'Or"
+    ],
+    "types": [
+      "construction"
+    ],
+    "child": [],
+    "details": {
+      "rules": "Sélectionner des tuiles et construire un mur.",
+      "material": "Tuiles colorées",
+      "victory": "Points selon placement",
+      "rewards": [
+        "Spiel des Jahres"
+      ]
+    },
+    "pricesdate": "03/06/2026",
+    "prices": [
+      {
+        "vendor": "Le Passe Temps",
+        "url": "https://www.lepassetemps.com/7-wonders",
+        "price": "34.99 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Le Terrier des Jeux",
+        "url": "https://www.leterrierdesjeux.fr/7-wonders",
+        "price": "32.99 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Ludum",
+        "url": "https://www.ludum.fr/7-wonders",
+        "price": "33.50 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Philibert",
+        "url": "https://www.philibertnet.com/fr/7-wonders/7-wonders-2100.html",
+        "price": "31.99 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Playin",
+        "url": "https://www.playin.com/7-wonders-jeu-de-societe-7-wonders-2100.html",
+        "price": "33.00 €",
+        "type": "boutique"
+      },
+      {
+        "vendor": "Amazon",
+        "url": "https://www.amazon.fr/Asmodee-7-Wonders-Jeu-Soci%C3%A9t%C3%A9/dp/B004Q6GZ8C",
+        "price": "29.99 €",
+        "type": "default",
+        "best": true
+      },
+      {
+        "vendor": "Cdiscount",
+        "url": "https://www.cdiscount.com/juniors/7-wonders-jeu-de-societe/f-103010101-7wonders.html",
+        "price": "30.50 €",
+        "type": "default"
+      },
+      {
+        "vendor": "Fnac",
+        "url": "https://www.fnac.com/7-Wonders-Jeu-de-societe/a110000000000000000001",
+        "price": "31.50 €",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "id": "botswana",
+    "title": "Botswana",
+    "description": "<b>Botswana</b> est un jeu de cartes simple et stratégique où les joueurs collectionnent des animaux lors d’un safari. En jouant des cartes qui font évoluer leur valeur, ils doivent anticiper et opportunément choisir leurs prises pour maximiser leur score final dans une ambiance rapide et tendue.",
+    "image": "images/botswana-box.jpg",
+    "images": [
+      "images/botswana-box.jpg",
+      "images/botswana-board.jpg"
+    ],
+    "youtube": "https://www.youtube.com/embed/g5LyYUb66UE",
+    "age": 7,
+    "players": "2-5",
+    "duration": 30,
+    "types": [
+      "affrontement",
+      "cartes"
+    ],
+    "child": [],
+    "favorite": [
+      "Coup de coeur"
+    ],
+    "discovery": [],
+    "buy": [],
+    "spiel": [],
+    "cannes": [],
+    "rewards": [
+      ""
+    ],
+    "prices": [
+      {
+        "vendor": "Le Passe Temps",
+        "price": "22.00 €",
+        "url": "https://www.le-passe-temps.com/tous-nos-jeux/29849-botswana.html",
+        "type": "boutique",
+        "best": false
+      },
+      {
+        "vendor": "Le Terrier des Jeux",
+        "price": "22.00 €",
+        "url": "https://leterrierdesjeux.com/products/botswana?_pos=1&_sid=cbf0e53a5&_ss=r",
+        "type": "boutique",
+        "best": false
+      },
+      {
+        "vendor": "Ludum",
+        "price": "19.90 €",
+        "url": "https://www.ludum.fr/jeux-de-strategie-en-famille/botswana-12442",
+        "type": "boutique",
+        "best": true
+      },
+      {
+        "vendor": "Philibert",
+        "price": "19.90 €",
+        "url": "https://www.philibertnet.com/fr/25th-century-games/170267-botswana-3770033532980.html#product-videos",
+        "type": "boutique",
+        "best": true
+      },
+      {
+        "vendor": "PlayIn",
+        "price": "19.90 €",
+        "url": "https://www.play-in.com/fr/produit/649290/botswana",
+        "type": "boutique",
+        "best": true
+      },
+      {
+        "vendor": "Amazon",
+        "price": "25.74 €",
+        "url": "https://www.amazon.fr/Blackrock-Games-Botswana-Collection-dAnimaux/dp/B0GSS29RMZ",
+        "type": "default",
+        "best": false
+      },
+      {
+        "vendor": "La Fnac",
+        "price": "25.15 €",
+        "url": "https://www.fnac.com/Jeu-de-strategie-25th-Century-Games-Botswana/a22998144/w-4",
+        "type": "default",
+        "best": false
+      }
+    ],
+    "price": "19.90",
+    "details": {
+      "rules": "Dans Botswana, chaque joueur reçoit des cartes représentant différents animaux avec des valeurs. À son tour, il joue une carte dans une couleur puis prend un jeton animal de n’importe quelle espèce. La valeur de chaque animal fluctue selon la dernière carte jouée, rendant chaque choix stratégique.",
+      "material": "Le jeu se compose de cartes numérotées associées à plusieurs espèces animales et de jetons ou figurines représentant ces animaux.  L’univers évoque un safari africain : les joueurs incarnent des photographes ou collectionneurs d’animaux, cherchant à capturer les espèces les plus précieuses dans une savane colorée.",
+      "victory": "Une manche se termine dès que toutes les cartes d’une couleur ont été jouées.  Les joueurs calculent alors leurs points en fonction de la valeur finale de chaque animal collecté. Après plusieurs manches, celui qui totalise le plus de points remporte la partie.",
+      "rewards": []
+    }
+  },
+  {
+    "id": "tag-team",
+    "title": "Tag Team",
+    "description": "<b>Tag Team</b> est un jeu d’affrontement pour deux joueurs mêlant deckbuilding et auto‑battler. Chaque joueur compose une équipe de combattants et programme ses actions via des cartes, déclenchées automatiquement en combat pour réaliser des combos et mettre son adversaire KO.",
+    "image": "images/tag-team-box.jpg",
+    "images": [
+      "images/tag-team-box.jpg",
+      "images/tag-team-board.jpg"
+    ],
+    "youtube": "https://www.youtube.com/embed/kOMpkYY0jZY",
+    "age": 10,
+    "players": "2",
+    "duration": 30,
+    "types": [
+      "affrontement",
+      "cartes"
+    ],
+    "child": [],
+    "favorite": [],
+    "discovery": [
+      "Wishlist"
+    ],
+    "buy": [],
+    "spiel": [],
+    "cannes": [],
+    "rewards": [
+      ""
+    ],
+    "prices": [
+      {
+        "vendor": "Le Passe Temps",
+        "price": "22.50 €",
+        "url": "https://www.le-passe-temps.com/tous-nos-jeux/28066-tag-team.html",
+        "type": "boutique",
+        "best": false
+      },
+      {
+        "vendor": "Le Terrier des Jeux",
+        "price": "22.50 €",
+        "url": "https://leterrierdesjeux.com/products/tag-team?_pos=1&_sid=e4b993e09&_ss=r",
+        "type": "boutique",
+        "best": false
+      },
+      {
+        "vendor": "Ludum",
+        "price": "19.90 €",
+        "url": "https://www.ludum.fr/jeux-de-strategie-inities/tag-team-9594",
+        "type": "boutique",
+        "best": true
+      },
+      {
+        "vendor": "Philibert",
+        "price": "20.50 €",
+        "url": "https://www.philibertnet.com/fr/le-scorpion-masque/154793-tag-team-807658001676.html#product-videos",
+        "type": "boutique",
+        "best": false
+      },
+      {
+        "vendor": "PlayIn",
+        "price": "19.90 €",
+        "url": "https://www.play-in.com/fr/produit/608835/tag-team",
+        "type": "boutique",
+        "best": true
+      },
+      {
+        "vendor": "Amazon",
+        "price": "20.50 €",
+        "url": "https://www.amazon.fr/Blackrock-Games-Tag-Team-Deckbuilding/dp/B0FNNC7FZR",
+        "type": "default",
+        "best": false
+      },
+      {
+        "vendor": "La Fnac",
+        "price": "22.49 €",
+        "url": "https://www.fnac.com/Jeu-de-strategie-Scorpion-masque-Tag-Team/a21669107/w-4",
+        "type": "default",
+        "best": false
+      }
+    ],
+    "price": "19.90",
+    "details": {
+      "rules": "Dans Tag Team, chaque joueur choisit deux combattants et combine leurs decks de cartes. Le combat se déroule automatiquement : les cartes sont révélées dans un ordre fixe et leurs effets s’appliquent. Entre les rounds, les joueurs ajoutent des cartes à leur deck pour planifier stratégies et combos.",
+      "material": "Le jeu propose des plateaux personnages, des decks de cartes spécifiques à chaque combattant et divers marqueurs pour suivre santé et effets.  Son univers s’inspire des jeux de combat d’arcade, avec des héros stylisés, pouvoirs spéciaux et affrontements dynamiques en arène fantastique.",
+      "victory": "La partie se joue en séries de rounds rapides où les joueurs infligent des dégâts grâce à leurs combos. L’objectif est de réduire les points de vie de l’équipe adverse à zéro. Dès qu’un joueur met son opposant KO, il remporte immédiatement la partie.",
+      "rewards": []
+    }
+  }
+]
