@@ -6,6 +6,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.use('/images', express.static('images'));
 
 // ✅ Lire les données
 app.get('/games', (req, res) => {
@@ -65,6 +66,10 @@ app.post('/upload', upload.single('image'), (req, res) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log('Serveur lancé sur http://localhost:3000');
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log("Server running on", PORT);
 });
+
