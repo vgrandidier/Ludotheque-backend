@@ -13,6 +13,14 @@ app.get('/games', (req, res) => {
   res.json(JSON.parse(data));
 });
 
+app.get('/', (req, res) => {
+  res.send("✅ Backend Ludothèque en ligne !");
+});
+
+app.get('/health', (req, res) => {
+  res.json({ status: "OK" });
+});
+
 // ✅ Sauvegarder toutes les données
 app.post('/games', (req, res) => {
   const games = req.body;
