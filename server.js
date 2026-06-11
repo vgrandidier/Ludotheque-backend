@@ -20,7 +20,7 @@ app.use(cors({
 }));
 
 app.use(express.json());
-app.use('/images', express.static('images'));
+//app.use('/images', express.static('images'));
 
 // ✅ Lire les données
 /*app.get('/games', (req, res) => {
@@ -53,11 +53,16 @@ app.get('/health', (req, res) => {
 
   res.json({ message: "Sauvegarde OK" });
 });*/
+
 app.post('/games', async (req, res) => {
+  console.log("BODY =", req.body); // ✅ DEBUG
+
   await Game.deleteMany({});
   await Game.insertMany(req.body);
+
   res.json({ message: "Saved" });
 });
+
 
 // ✅ Supprimer un jeu
 /*app.delete('/games/:id', (req, res) => {
@@ -82,16 +87,16 @@ const multer = require('multer');
 const path = require('path');
 
 // ✅ configuration stockage
-const storage = multer.diskStorage({
+/*const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, 'images/');
   },
   filename: function (req, file, cb) {
     cb(null, file.originalname); // ✅ IMPORTANT
   }
-});
+});*/
 
-const upload = multer({ storage });
+//const upload = multer({ storage });
 
 app.post('/upload', upload.single('image'), (req, res) => {
   res.json({
