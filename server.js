@@ -115,6 +115,16 @@ cloudinary.config({
   api_secret: process.env.API_SECRET
 });
 
+const storage = new CloudinaryStorage({
+  cloudinary: cloudinary,
+  params: {
+    folder: 'ludotheque',
+    resource_type: 'image'
+  }
+});
+
+const upload = multer({ storage });
+
 app.post('/upload', upload.single('image'), (req, res) => {
   res.json({
     url: req.file.path // ✅ URL Cloudinary directe
