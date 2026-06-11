@@ -114,6 +114,9 @@ cloudinary.config({
   api_secret: process.env.API_SECRET
 });
 
+
+const { CloudinaryStorage } = require('multer-storage-cloudinary');
+
 const storage = new CloudinaryStorage({
   cloudinary: cloudinary,
   params: {
@@ -121,6 +124,7 @@ const storage = new CloudinaryStorage({
     resource_type: 'image'
   }
 });
+
 
 const upload = multer({ storage });
 
