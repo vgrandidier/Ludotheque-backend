@@ -80,7 +80,11 @@ app.get('/games', async (req, res) => {
 // ✅ POST save ALL (remplace tout)
 app.post('/games', async (req, res) => {
   try {
-    console.log("📌 BODY :", req.body.length);
+
+    if (!Array.isArray(req.body)) {
+      console.error("❌ Body invalide:", req.body);
+      return res.status(400).json({ error: "Body must be an array" });
+    }
 
     await Game.deleteMany({});
     await Game.insertMany(req.body);
@@ -88,7 +92,7 @@ app.post('/games', async (req, res) => {
     res.json({ message: "✅ Saved" });
 
   } catch (err) {
-    console.error(err);
+    console.error("❌ SAVE ERROR:", err);
     res.status(500).json({ error: "Erreur sauvegarde" });
   }
 });
