@@ -1,130 +1,47 @@
+// ==========================
+// IMPORTS
+// ==========================
 const express = require('express');
-//const fs = require('fs');
 const cors = require('cors');
-
-const app = express();
-
-
 const mongoose = require('mongoose');
+const multer = require('multer');
+const cloudinary = require('cloudinary').v2;
+const { CloudinaryStorage } = require('multer-storage-cloudinary');
 
-mongoose.connect(process.env.MONGO_URL)
-  .then(() => console.log("✅ Mongo connecté"));
-
-  
-const GameSchema = new mongoose.Schema({}, { strict: false });
-const Game = mongoose.model('Game', GameSchema)
-
+// ==========================
+// APP INIT
+// ==========================
+const app = express();
 
 app.use(cors({
   origin: '*'
 }));
 
 app.use(express.json());
-//app.use('/images', express.static('images'));
 
-// ✅ Lire les données
-/*app.get('/games', (req, res) => {
-  const data = fs.readFileSync('games.json');
-  res.json(JSON.parse(data));
-});*/
-app.get('/games', async (req, res) => {
-  const games = await Game.find();
-  res.json(games);
-});
+// ==========================
+// MONGODB
+// ==========================
+mongoose.connect(process.env.MONGO_URL)
+  .then(() => console.log("✅ Mongo connecté"))
+  .catch(err => console.error("❌ Mongo error:", err));
 
+// Schema flexible
+const GameSchema = new mongoose.Schema({}, { strict: false });
+const Game = mongoose.model('Game', GameSchema);
 
-app.get('/', (req, res) => {
-  res.send("✅ Backend Ludothèque en ligne !");
-});
-
-
-app.get('/health', (req, res) => {
-  res.json({ status: "OK" });
-});
-
-
-/*app.post('/games', (req, res) => {
-  const games = req.body;
-
-});
-
-// ✅ Sauvegarder toutes les données
-  fs.writeFileSync('games.json', JSON.stringify(games, null, 2));
-
-  res.json({ message: "Sauvegarde OK" });
-});*/
-
-app.post('/games', async (req, res) => {
-  console.log("BODY =", req.body); // ✅ DEBUG
-
-  await Game.deleteMany({});
-  await Game.insertMany(req.body);
-
-  res.json({ message: "Saved" });
-});
-
-
-// ✅ Supprimer un jeu
-/*app.delete('/games/:id', (req, res) => {
-  const id = req.params.id;
-
-  let games = JSON.parse(fs.readFileSync('games.json'));
-
-  games = games.filter(g => g.id !== id);
-
-  fs.writeFileSync('games.json', JSON.stringify(games, null, 2));
-
-  res.json({ message: "Supprimé" });
-});*/
-app.delete('/games/:id', async (req, res) => {
-  await Game.deleteOne({ id: req.params.id });
-  res.json({ message: "Deleted" });
-});
-
-
-// Uploader les images
-const multer = require('multer');
-const path = require('path');
-
-// ✅ configuration stockage
-/*const storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, 'images/');
-  },
-  filename: function (req, file, cb) {
-    cb(null, file.originalname); // ✅ IMPORTANT
-  }
-});*/
-
-//const upload = multer({ storage });
-
-app.post('/upload', upload.single('image'), (req, res) => {
-  res.json({
-    filename: req.file.filename
-  });
-});
-
-
-const PORT = process.env.PORT || 3000;
-
-app.listen(PORT, () => {
-  console.log("Server running on", PORT);
-});
-
-// =====================
-// CLOUDINARY FOR IMAGES
-// =====================
-const cloudinary = require('cloudinary').v2;
-
+// ==========================
+// CLOUDINARY CONFIG
+// ==========================
 cloudinary.config({
   cloud_name: process.env.CLOUD_NAME,
   api_key: process.env.API_KEY,
   api_secret: process.env.API_SECRET
 });
 
-
-const { CloudinaryStorage } = require('multer-storage-cloudinary');
-
+// ==========================
+// MULTER + CLOUDINARY STORAGE
+// ==========================
 const storage = new CloudinaryStorage({
   cloudinary: cloudinary,
   params: {
@@ -133,11 +50,81 @@ const storage = new CloudinaryStorage({
   }
 });
 
-
 const upload = multer({ storage });
 
+// ==========================
+// ROUTES
+// ==========================
+
+// ✅ Test serveur
+app.get('/', (req, res) => {
+  res.send("✅ Backend Ludothèque OK");
+});
+
+// ✅ Health check
+app.get('/health', (req, res) => {
+  res.json({ status: "OK" });
+});
+
+// ✅ GET games
+app.get('/games', async (req, res) => {
+  try {
+    const games = await Game.find();
+    res.json(games);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Erreur récupération games" });
+  }
+});
+
+// ✅ POST save ALL (remplace tout)
+app.post('/games', async (req, res) => {
+  try {
+    console.log("📌 BODY :", req.body.length);
+
+    await Game.deleteMany({});
+    await Game.insertMany(req.body);
+
+    res.json({ message: "✅ Saved" });
+
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Erreur sauvegarde" });
+  }
+});
+
+// ✅ DELETE 1 game
+app.delete('/games/:id', async (req, res) => {
+  try {
+    await Game.deleteOne({ id: req.params.id });
+    res.json({ message: "✅ Deleted" });
+
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Erreur suppression" });
+  }
+});
+
+// ✅ UPLOAD IMAGE CLOUDINARY
 app.post('/upload', upload.single('image'), (req, res) => {
+
+  console.log("📷 FILE:", req.file);
+
+  if (!req.file) {
+    return res.status(400).json({ error: "Aucun fichier reçu" });
+  }
+
   res.json({
-    url: req.file.path // ✅ URL Cloudinary directe
+    url: req.file.path // ✅ URL Cloudinary
   });
 });
+
+// ==========================
+// SERVER
+// ==========================
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log("🚀 Server running on port", PORT);
+});
+``
