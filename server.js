@@ -15,7 +15,10 @@ const GameSchema = new mongoose.Schema({}, { strict: false });
 const Game = mongoose.model('Game', GameSchema)
 
 
-app.use(cors());
+app.use(cors({
+  origin: '*'
+}));
+
 app.use(express.json());
 app.use('/images', express.static('images'));
 
