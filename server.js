@@ -84,13 +84,25 @@ app.post('/games', async (req, res) => {
 // ✅ UPDATE game
 app.put('/games/:id', async (req, res) => {
   try {
+
+    if (!req.body.id) {
+      return res.status(400).json({ error: "ID manquant" });
+    }
+
     const updated = await Game.findOneAndUpdate(
       { id: req.params.id },
       req.body,
-      { new: true, upsert: true }
+      { new: true } // ❌ enlever upsert
     );
+
+    if (!updated) {
+      return res.status(404).json({ error: "Jeu introuvable" });
+    }
+
     res.json(updated);
+
   } catch (err) {
+    console.error(err);
     res.status(500).json({ error: "Erreur update" });
   }
 });
